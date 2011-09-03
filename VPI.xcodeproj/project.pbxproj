@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83A549511412830200F5AA7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A549501412830200F5AA7C /* UIKit.framework */; };
+		83A549531412830200F5AA7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A549521412830200F5AA7C /* Foundation.framework */; };
+		83A549551412830200F5AA7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A549541412830200F5AA7C /* CoreGraphics.framework */; };
+		83A5495B1412830200F5AA7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83A549591412830200F5AA7C /* InfoPlist.strings */; };
+		83A5495E1412830200F5AA7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A5495D1412830200F5AA7C /* main.m */; };
+		83A549611412830200F5AA7C /* VPIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A549601412830200F5AA7C /* VPIAppDelegate.m */; };
+		83A549641412830200F5AA7C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A549621412830200F5AA7C /* MainWindow.xib */; };
+		83A549671412830200F5AA7C /* VPIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A549661412830200F5AA7C /* VPIViewController.m */; };
+		83A5496A1412830200F5AA7C /* VPIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83A549681412830200F5AA7C /* VPIViewController.xib */; };
+		83A549711412830200F5AA7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A549501412830200F5AA7C /* UIKit.framework */; };
+		83A549721412830200F5AA7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A549521412830200F5AA7C /* Foundation.framework */; };
+		83A549731412830200F5AA7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A549541412830200F5AA7C /* CoreGraphics.framework */; };
+		83A5497B1412830200F5AA7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83A549791412830200F5AA7C /* InfoPlist.strings */; };
+		83A5497E1412830200F5AA7C /* VPITests.h in Resources */ = {isa = PBXBuildFile; fileRef = 83A5497D1412830200F5AA7C /* VPITests.h */; };
+		83A549801412830200F5AA7C /* VPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A5497F1412830200F5AA7C /* VPITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83A549741412830200F5AA7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83A549431412830100F5AA7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83A5494B1412830200F5AA7C;
+			remoteInfo = VPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83A5494C1412830200F5AA7C /* VPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A549501412830200F5AA7C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83A549521412830200F5AA7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83A549541412830200F5AA7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83A549581412830200F5AA7C /* VPI-Info.plist */ = {isa = PBXFileReference; path = "VPI-Info.plist"; sourceTree = "<group>"; };
+		83A5495A1412830200F5AA7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83A5495C1412830200F5AA7C /* VPI-Prefix.pch */ = {isa = PBXFileReference; path = "VPI-Prefix.pch"; sourceTree = "<group>"; };
+		83A5495D1412830200F5AA7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83A5495F1412830200F5AA7C /* VPIAppDelegate.h */ = {isa = PBXFileReference; path = VPIAppDelegate.h; sourceTree = "<group>"; };
+		83A549601412830200F5AA7C /* VPIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPIAppDelegate.m; sourceTree = "<group>"; };
+		83A549631412830200F5AA7C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		83A549651412830200F5AA7C /* VPIViewController.h */ = {isa = PBXFileReference; path = VPIViewController.h; sourceTree = "<group>"; };
+		83A549661412830200F5AA7C /* VPIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPIViewController.m; sourceTree = "<group>"; };
+		83A549691412830200F5AA7C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VPIViewController.xib; sourceTree = "<group>"; };
+		83A549701412830200F5AA7C /* VPITests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VPITests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A549781412830200F5AA7C /* VPITests-Info.plist */ = {isa = PBXFileReference; path = "VPITests-Info.plist"; sourceTree = "<group>"; };
+		83A5497A1412830200F5AA7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83A5497C1412830200F5AA7C /* VPITests-Prefix.pch */ = {isa = PBXFileReference; path = "VPITests-Prefix.pch"; sourceTree = "<group>"; };
+		83A5497D1412830200F5AA7C /* VPITests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VPITests.h; sourceTree = "<group>"; };
+		83A5497F1412830200F5AA7C /* VPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VPITests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83A549491412830200F5AA7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A549511412830200F5AA7C /* UIKit.framework in Frameworks */,
+				83A549531412830200F5AA7C /* Foundation.framework in Frameworks */,
+				83A549551412830200F5AA7C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A5496C1412830200F5AA7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A549711412830200F5AA7C /* UIKit.framework in Frameworks */,
+				83A549721412830200F5AA7C /* Foundation.framework in Frameworks */,
+				83A549731412830200F5AA7C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83A549411412830100F5AA7C = {
+			isa = PBXGroup;
+			children = (
+				83A549561412830200F5AA7C /* VPI */,
+				83A549761412830200F5AA7C /* VPITests */,
+				83A5494F1412830200F5AA7C /* Frameworks */,
+				83A5494D1412830200F5AA7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83A5494D1412830200F5AA7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83A5494C1412830200F5AA7C /* VPI.app */,
+				83A549701412830200F5AA7C /* VPITests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83A5494F1412830200F5AA7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83A549501412830200F5AA7C /* UIKit.framework */,
+				83A549521412830200F5AA7C /* Foundation.framework */,
+				83A549541412830200F5AA7C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83A549561412830200F5AA7C /* VPI */ = {
+			isa = PBXGroup;
+			children = (
+				83A5495F1412830200F5AA7C /* VPIAppDelegate.h */,
+				83A549601412830200F5AA7C /* VPIAppDelegate.m */,
+				83A549621412830200F5AA7C /* MainWindow.xib */,
+				83A549651412830200F5AA7C /* VPIViewController.h */,
+				83A549661412830200F5AA7C /* VPIViewController.m */,
+				83A549681412830200F5AA7C /* VPIViewController.xib */,
+				83A549571412830200F5AA7C /* Supporting Files */,
+			);
+			path = VPI;
+			sourceTree = "<group>";
+		};
+		83A549571412830200F5AA7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83A549581412830200F5AA7C /* VPI-Info.plist */,
+				83A549591412830200F5AA7C /* InfoPlist.strings */,
+				83A5495C1412830200F5AA7C /* VPI-Prefix.pch */,
+				83A5495D1412830200F5AA7C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83A549761412830200F5AA7C /* VPITests */ = {
+			isa = PBXGroup;
+			children = (
+				83A5497D1412830200F5AA7C /* VPITests.h */,
+				83A5497F1412830200F5AA7C /* VPITests.m */,
+				83A549771412830200F5AA7C /* Supporting Files */,
+			);
+			path = VPITests;
+			sourceTree = "<group>";
+		};
+		83A549771412830200F5AA7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83A549781412830200F5AA7C /* VPITests-Info.plist */,
+				83A549791412830200F5AA7C /* InfoPlist.strings */,
+				83A5497C1412830200F5AA7C /* VPITests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83A5494B1412830200F5AA7C /* VPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A549831412830200F5AA7C /* Build configuration list for PBXNativeTarget "VPI" */;
+			buildPhases = (
+				83A549481412830200F5AA7C /* Sources */,
+				83A549491412830200F5AA7C /* Frameworks */,
+				83A5494A1412830200F5AA7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VPI;
+			productName = VPI;
+			productReference = 83A5494C1412830200F5AA7C /* VPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83A5496F1412830200F5AA7C /* VPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A549861412830200F5AA7C /* Build configuration list for PBXNativeTarget "VPITests" */;
+			buildPhases = (
+				83A5496B1412830200F5AA7C /* Sources */,
+				83A5496C1412830200F5AA7C /* Frameworks */,
+				83A5496D1412830200F5AA7C /* Resources */,
+				83A5496E1412830200F5AA7C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83A549751412830200F5AA7C /* PBXTargetDependency */,
+			);
+			name = VPITests;
+			productName = VPITests;
+			productReference = 83A549701412830200F5AA7C /* VPITests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83A549431412830100F5AA7C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 83A549461412830100F5AA7C /* Build configuration list for PBXProject "VPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83A549411412830100F5AA7C;
+			productRefGroup = 83A5494D1412830200F5AA7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83A5494B1412830200F5AA7C /* VPI */,
+				83A5496F1412830200F5AA7C /* VPITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83A5494A1412830200F5AA7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A5495B1412830200F5AA7C /* InfoPlist.strings in Resources */,
+				83A549641412830200F5AA7C /* MainWindow.xib in Resources */,
+				83A5496A1412830200F5AA7C /* VPIViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A5496D1412830200F5AA7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A5497B1412830200F5AA7C /* InfoPlist.strings in Resources */,
+				83A5497E1412830200F5AA7C /* VPITests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83A5496E1412830200F5AA7C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83A549481412830200F5AA7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A5495E1412830200F5AA7C /* main.m in Sources */,
+				83A549611412830200F5AA7C /* VPIAppDelegate.m in Sources */,
+				83A549671412830200F5AA7C /* VPIViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A5496B1412830200F5AA7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A549801412830200F5AA7C /* VPITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83A549751412830200F5AA7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83A5494B1412830200F5AA7C /* VPI */;
+			targetProxy = 83A549741412830200F5AA7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83A549591412830200F5AA7C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A5495A1412830200F5AA7C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83A549621412830200F5AA7C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A549631412830200F5AA7C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		83A549681412830200F5AA7C /* VPIViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A549691412830200F5AA7C /* en */,
+			);
+			name = VPIViewController.xib;
+			sourceTree = "<group>";
+		};
+		83A549791412830200F5AA7C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83A5497A1412830200F5AA7C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83A549811412830200F5AA7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83A549821412830200F5AA7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		83A549841412830200F5AA7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPI/VPI-Prefix.pch";
+				INFOPLIST_FILE = "VPI/VPI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83A549851412830200F5AA7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPI/VPI-Prefix.pch";
+				INFOPLIST_FILE = "VPI/VPI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		83A549871412830200F5AA7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VPI.app/VPI";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPITests/VPITests-Prefix.pch";
+				INFOPLIST_FILE = "VPITests/VPITests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		83A549881412830200F5AA7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VPI.app/VPI";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VPITests/VPITests-Prefix.pch";
+				INFOPLIST_FILE = "VPITests/VPITests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83A549461412830100F5AA7C /* Build configuration list for PBXProject "VPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A549811412830200F5AA7C /* Debug */,
+				83A549821412830200F5AA7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A549831412830200F5AA7C /* Build configuration list for PBXNativeTarget "VPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A549841412830200F5AA7C /* Debug */,
+				83A549851412830200F5AA7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83A549861412830200F5AA7C /* Build configuration list for PBXNativeTarget "VPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A549871412830200F5AA7C /* Debug */,
+				83A549881412830200F5AA7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83A549431412830100F5AA7C /* Project object */;
+}
